@@ -76,12 +76,14 @@ div#sideBar a:hover {
 }
 
 div#login {
-	margin: 100px auto 0;
+	position: absolute;
+	margin: 100px auto 0 10px;
 	width: 153px;
+	bottom: 50px;
 }
 
 div#main div#content {
-	padding: 5px 5px 50px 0;
+	padding: 0 5px 50px 0;
 	margin: 20px;
 	width: 525px;
 	height: 360px;
@@ -89,11 +91,6 @@ div#main div#content {
 	font-size: 12px;
 	font-family: "Arial", Helvetica, Arial, sans-serif;
 	text-align: justify;
-	overflow: hidden;
-}
-
-div#main div#content:hover {
-	overflow: auto;
 }
 
 div#content h2 {
